@@ -20,8 +20,16 @@ class JenkinsTestTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let i = 111
+        XCTAssert(i == 111, "Integer is not equal")
+    }
+    func testExample2() {
+        let i = 112
+        XCTAssert(i == 112, "Integer2 is not equal")
+    }
+    func testExample3() {
+        let i = 113
+        XCTAssert(i == 113, "Integer1 is not equal")
     }
 
     func testPerformanceExample() {
